@@ -125,7 +125,7 @@ nav.mobile-show {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: #18182c;
+  background-color:rgba(22, 21, 58, 0.7);
 }
 
 nav.mobile-show ul {
@@ -266,9 +266,10 @@ body.light-mode label{
 
 /* Features Section */
 .features-section {
+  display: inline;
   opacity: 0;
   transform: translateY(100px);
-  transition: all 0.6s ease-out;
+  transition: all 2s ease-out;
   margin-bottom: 70px;
   margin-top: 50px;
 }
@@ -279,6 +280,7 @@ body.light-mode label{
 }
 
 .features-section h2 {
+  margin-top: 40px;
   text-align: center;
   font-size: 46px;
   margin-bottom: 40px;
@@ -303,6 +305,7 @@ body.light-mode label{
   text-align: center;
   box-shadow: 0px 20px 50px rgba(112, 7, 7, 0.8);
   transition: transform 0.3s;
+  margin-bottom: 30px;
 }
 
 .feature-box:hover {
@@ -530,19 +533,15 @@ iframe {
 
 /* Media Queries */
 @media (max-width: 700px) {
-  div{
-    max-width: 100%;
-    width: auto;
-  }
   main{
     max-width: 100%;
     width: auto;
   }
 
   h2{
-    font-size: 70px;
+    font-size: 90px;
     width: 90%;
-    margin-left: 10px;
+    margin-left: 30px;
   }
   h1{
     font-size: 18px;
@@ -557,44 +556,50 @@ iframe {
   }
   .secondary-button{
     font-size: 16px;
+    margin-left: 31%;
+    width: 40%;
   }
 
   ul.ul {
       display: none;
   }
 
-  .ul a{
-    font-size: 16px;
-  }
-
   .hamburger-icon {
-      display: block;
-      color: white;
+    margin-left: 70%;
+    display: block;
+    position: static;;
+    color: white;
   }
 
   nav.mobile-show ul.ul {
-      display: block;
+      display: flex;
       margin: 10px;
-      margin-top: -50px;
     }
     header{
       max-width: auto;
       width: 100%;
-    }
-    .a{
-      margin-left: -170px;
     }
 
   .close-icon {
       display: block;
       color: white;
       position: absolute;
-      top: -40px;
+      top: -30px;
       right: 20px;
+  }
+  .mobile-show{
+    margin-top: -30px;
   }
   .mobile-show .code{
     display: none;
   }
+  .mobile-show  .close-icon{
+    margin-top: 40px;
+  }
+  .mobile-show .hamburger-icon{
+    display: none;
+  }
+
   .hero-content{
     margin-top: -100px;
   }

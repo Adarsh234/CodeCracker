@@ -68,13 +68,13 @@ const Navbar = () => {
           size="2x"
           className="close-icon"
         />
-      </nav>
-      <FontAwesomeIcon
+        <FontAwesomeIcon
         onClick={() => setShowNav(true)}
         icon={faBars}
         size="2x"
         className="hamburger-icon"
       />
+      </nav>
     </header>
   );
 };
