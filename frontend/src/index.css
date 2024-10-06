@@ -82,34 +82,36 @@ p {
 .secondary-button {
   color: white;
   display: block;
-  margin-top: 25px;
+  margin-left: 265px;
+  margin-top: 35px;
   text-decoration: none;
   font-size: 1.06rem;
+  width: 20%;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
   background-color: #18182c;
   color: #d1d1e0;
 }
 
 footer p {
-  font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
 /* Navbar */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  color: #fff;
-  position: relative;
-  background-color: #18182c;
-  font-weight: 100;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  top: 0;
+  width: 100%;
+  padding: 15px 20px;
+  position: fixed;
+  background:rgba(22, 21, 58, 0.7);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
 }
 
 .hamburger-icon, .close-icon {
@@ -187,8 +189,8 @@ body.light-mode {
 }
 
 body.light-mode header {
-  background-color: #ffffff; /* Light header */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+  background:rgba(255, 255, 255, 0.7);; /* Light header */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Lighter shadow */
 }
 
 body.light-mode nav.mobile-show{
@@ -457,7 +459,7 @@ iframe {
 }
 
 .b1:hover {
-  text-decoration: underline;
+  color: #000000;
 }
 
 .register-container {
