@@ -47,13 +47,13 @@ const Navbar = () => {
           Home
           </a>
           </li>
-          <li><a href="/editor">
+          <li><a href='/editor'>
           <FontAwesomeIcon icon={faComputer} className='font'/>
           Web Editor</a></li>
-          <li><a href="/python-compiler">
+          <li><a href='/python-compiler'>
           <FontAwesomeIcon icon={faComputer} className='font'/>
           Python</a></li>
-          <li><a href="/ChatBot">
+          <li><a href='/ChatBot'>
           <FontAwesomeIcon icon={faMessage} className='font'/>
           ChatBot</a></li>
           <li>
