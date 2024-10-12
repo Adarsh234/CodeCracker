@@ -18,7 +18,7 @@ useEffect(() => {
       <Layout>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path="/editor" element={<WebEditor />} />
+        <Route path='/editor' element={<WebEditor />} />
         <Route path='/python-compiler' element={<PythonCompiler/>}/>
         <Route path='/ChatBot' element={<ChatbotPage/>}/>
       </Routes>
