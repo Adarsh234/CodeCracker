@@ -2,6 +2,7 @@ import { faCode, faComputer, faShield, faShieldVirus, faUser } from '@fortawesom
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import  { useEffect, useState } from 'react';
+import { FlipWords } from "./ui/flip-words";
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  const words = ["Seamless", "Simplified", "Effortless"];
 
 
   return (
@@ -36,12 +38,12 @@ const Home = () => {
               <span className="code-icon">&lt;/&gt;</span> CodeCracker
             </h1></button>
             <h2>Code</h2>
-            <h2 className='h2'> Seamless</h2>
+            <h2 className='h2'><FlipWords words={words} /></h2>
             <p>
               CodeCracker simplifies coding with no setup, offering fast,
               effortless development with autocompletion.
             </p>
-            <a href="#" className="cta-button">
+            <a href="/python-compiler" className="cta-button">
               Getting Started for free
             </a>
             <a href="/editor" className="secondary-button">

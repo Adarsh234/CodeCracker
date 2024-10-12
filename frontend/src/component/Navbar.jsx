@@ -6,8 +6,8 @@ import {
   faBars,
   faComputer,
   faHome,
-  faSignIn,
-  faClose
+  faClose,
+  faMessage
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -50,12 +50,12 @@ const Navbar = () => {
           <li><a href="/editor">
           <FontAwesomeIcon icon={faComputer} className='font'/>
           Web Editor</a></li>
-          <li><a href="/python">
+          <li><a href="/python-compiler">
           <FontAwesomeIcon icon={faComputer} className='font'/>
           Python</a></li>
-          <li><a href="/login">
-          <FontAwesomeIcon icon={faSignIn} className='font'/>
-          Sign In</a></li>
+          <li><a href="/ChatBot">
+          <FontAwesomeIcon icon={faMessage} className='font'/>
+          ChatBot</a></li>
           <li>
             <button onClick={toggleTheme} className="theme-switch">
               {darkMode ? '🌙' : '☀️'}

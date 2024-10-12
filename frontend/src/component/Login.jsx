@@ -29,7 +29,7 @@ const Login = () => {
 
   const l1 = useNavigate();
   const singup = () => {
-    l1("/registor");
+    l1("/");
   }
 
 

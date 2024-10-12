@@ -1,22 +1,29 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import Home from './component/Home';
+import { useEffect } from "react";
 import Layout from './component/Layout';
 import WebEditor from './component/WebEditor';
-import Login from './component/Login';
-import  Register from './component/Registor';
+import PythonCompiler from './component/PythonCompiler';
+import ChatbotPage from './component/ChatBot';
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
+useEffect(() => {
+  console.log('App component rendered!');
+}, []);
+
+
   return (
-    <Router>
+    <AuthProvider>
       <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path="/editor" element={<WebEditor />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/registor" element={<Register />} />
+        <Route path='/python-compiler' element={<PythonCompiler/>}/>
+        <Route path='/ChatBot' element={<ChatbotPage/>}/>
       </Routes>
       </Layout>
-    </Router>
+      </AuthProvider>
   );
 }
 
