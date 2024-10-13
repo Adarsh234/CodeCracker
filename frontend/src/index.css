@@ -644,6 +644,14 @@ textarea {
 }
 
 /* Media Queries */
+@media (max-width: 1100px){
+  .bsf{
+    margin-left: 85%;
+  }
+  .t1{
+    margin-left: 5%;
+  }
+}
 @media (max-width: 700px) {
   main{
     max-width: 100%;
@@ -793,6 +801,18 @@ textarea {
   .answer{
     font-size: 0.7rem;
     width: 85%;
+  }
+}
+
+@media (max-width: 400px){
+  .hamburger-icon{
+    margin-left: 55%;
+  }
+  .bsf{
+    margin-left: -5%;
+  }
+  .t1{
+    margin-left: 5%;
   }
 }
 
