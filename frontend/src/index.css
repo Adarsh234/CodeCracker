@@ -613,7 +613,7 @@ textarea {
   display: inline;
   background-color: #0d0d23;
   width: 91.5%;
-  margin-left: 30px;
+  margin-left: 90px;
   color: white;
   border-radius: 15px;
   padding: 13px;
@@ -632,7 +632,7 @@ textarea {
   display: flex;
   position: fixed;
   bottom: 10px;
-  margin-left: 83%;
+  margin-left: 90%;
 }
 
 .answer{
@@ -777,6 +777,7 @@ textarea {
   }
   .t1{
     font-size: 14px;
+    margin-left: 10%;
     width: 85%;
     bottom: 4%;
   }
