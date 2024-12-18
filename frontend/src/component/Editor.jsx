@@ -37,7 +37,7 @@ export default function Editor(props) {
       </div>
       <CodeMirror
         value={value}
-        height="400px"
+        height="250px"
         theme={oneDark} // Updated to oneDark theme
         extensions={[getLanguageExtension()]}
         onChange={handleChange}

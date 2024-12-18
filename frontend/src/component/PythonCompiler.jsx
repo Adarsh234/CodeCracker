@@ -38,7 +38,7 @@ export default function PythonCompiler() {
           <CodeMirror
             value={code}
             extensions={[python()]}
-            theme={oneDark}
+            theme={'light'}
             onChange={setCode}
             height="750px"
           />
