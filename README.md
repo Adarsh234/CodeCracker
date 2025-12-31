@@ -39,7 +39,7 @@ This project is built using modern web technologies to ensure speed and reliabil
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=App+Screenshot+Coming+Soon" alt="CodeCracker Screenshot" width="800"/>
+  <img width="1903" height="936" alt="image" src="https://github.com/user-attachments/assets/ce95a90f-cc0e-460b-bd7b-65dcc2e78e76" />
 </div>
 
 ---
