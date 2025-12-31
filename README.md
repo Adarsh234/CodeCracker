@@ -8,7 +8,7 @@
 
 > **An advanced online code compiler built for Web Development and Python enthusiasts.**
 
-[**🔴 Live Demo**](https://code-cracker-xi.vercel.app) · [**🐞 Report Bug**](https://github.com/Adarsh234/CodeCracker/issues) · [**✨ Request Feature**](https://github.com/Adarsh234/CodeCracker/issues)
+[**🔴 Live Demo**](https://code-crackers.netlify.app/) · [**🐞 Report Bug**](https://github.com/Adarsh234/CodeCracker/issues) · [**✨ Request Feature**](https://github.com/Adarsh234/CodeCracker/issues)
 
 ---
 
